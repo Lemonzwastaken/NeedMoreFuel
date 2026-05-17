@@ -1,13 +1,20 @@
+
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
 
+# IDE / Editor
 .vs/
 *.sln
 *.VC.db
 *.VC.opendb
-
 *.log
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Project-specific exclusions
+Content/Maps/
+Content/StackOBot/
