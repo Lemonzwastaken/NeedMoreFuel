@@ -45,6 +45,9 @@ Test your patience and skill across multiple platforms, NPCs, janky physics, and
 
 No license, use the code as you wish.
 
----
+## AI USE
 
+No AI use besides debugging some blueprints, which I was unable to figure out
+
+-------------------------------------------------------------------------------
 Made by Lemong
