@@ -7,7 +7,7 @@ The game currently includes a tutorial level, which is intended as a demo showca
 
 Test your patience and skill across multiple platforms, NPCs, janky physics, and a possible car. Also, did I mention there are Jetpacks and chill music.
 
-## 🕹️ Controls
+## Controls
 
 | Action | Key |
 |--------|-----|
@@ -36,12 +36,12 @@ Test your patience and skill across multiple platforms, NPCs, janky physics, and
 3. Extract and run `NeedMoreFuel.exe.`
 4. What further instructions do I give?
 
-## 🛠️ Built With
+## Built With
 
 - [Unreal Engine 5.7](https://www.unrealengine.com/)
 - Blueprints (no C++)
 
-## 📄 License
+## License
 
 No license, use the code as you wish.
 
