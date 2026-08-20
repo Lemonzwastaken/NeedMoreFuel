@@ -1,53 +1,51 @@
 # NeedMoreFuel
 
-NeedMoreFuel!!! is a chill platformer that includes bad physics, quirky NPCs, and chill music. Also, there are jetpacks if you like that.
-The game currently includes a tutorial level, which is intended as a demo showcasing all the features coming in the final release, whenever that may be.
+Time spent on project: ![hackatime](https://hackatime.hackclub.com/api/v1/badge/U092BLMKNQN/Lemonzwastaken/NeedMoreFuel
+)
 
-### THIS RELEASE IS A TEST DEMO, TO PLAY CLICK ON PLAY TUTORIAL
+A platformer built in Unreal Engine 5, featuring janky physics, quirky NPCs, and jetpacks. The current release is a test demo showcasing the core mechanics planned for a future full release.
 
-Test your patience and skill across multiple platforms, NPCs, janky physics, and a possible car. Also, did I mention there are Jetpacks and chill music.
+## Overview
 
-## Controls
+- **Engine:** Unreal Engine 5.7
+- **Project file:** `NeedMoreFuel.uproject`
+- **Genre:** Platformer
+- **Status:** Test demo. The current build includes a tutorial level intended to showcase mechanics planned for the full release.
 
-| Action | Key |
-|--------|-----|
-| Move | WASD |
-| Jump | Space |
-| Look | Mouse |
-| Pause | Escape |
-| Interact | E |
+## Requirements
 
-## Reviews (they're real trust)
+- [Unreal Engine 5.7](https://www.unrealengine.com/) (required only if running the project from source)
+- A compatible version of Visual Studio if compiling from source (Windows) or Xcode (macOS)
 
-<img width="660" height="587" alt="{5130EE49-0000-4204-82DE-5615316F196E}" src="https://github.com/user-attachments/assets/587d3d73-3328-4bb9-a7c4-5ac88d6162e0" />
 
-(Picture of bill)
-#### Bill: This game is pretty cool, I like it
+## Cloning the project
 
-<img width="621" height="472" alt="{AF4CFBAC-6349-4D15-8FAE-221E04739FE8}" src="https://github.com/user-attachments/assets/f7edca6f-597d-4d0a-be21-be7b72e10e0e" />
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lemonzwastaken/NeedMoreFuel.git
+   ```
+2. Open `NeedMoreFuel.uproject` with Unreal Engine 5.7.
+3. Press **Play** in the editor to run the project.
 
-(Another picture of bill)
-#### Bill: 5 stars
+**IMPORTANT NOTE**: Due to Unreal Engine licenses and git LFS limitations, I am required not to upload any assets. Before playing the game please replace all blueprints with your own assets. The game will break without replacing them. 
 
-## How 2 play 101 (Windows)
+## Project Structure
 
-1. Go to the [Releases](../../releases) page
-2. Download the latest `.zip`
-3. Extract and run `NeedMoreFuel.exe.`
-4. What further instructions do I give?
+| Path | Description |
+|------|--------------|
+| `Content/Blueprints/` | Game blueprints and logic |
+| `Config/` | Project and engine configuration files |
+| `NeedMoreFuel.uproject` | Main Unreal Engine project file |
 
-## Built With
 
-- [Unreal Engine 5.7](https://www.unrealengine.com/)
-- Blueprints (no C++)
+## Notes on Implementation
+
+The project is built entirely with Blueprints, with no C++ used. AI tools were used only to assist with debugging a small number of blueprints; all other logic and content was created manually.
 
 ## License
 
-No license, use the code as you wish.
 
-## AI USE
 
-No AI use besides debugging some blueprints, which I was unable to figure out
+---
 
--------------------------------------------------------------------------------
-Made by Lemong
+Developed by Aaradhy.
